@@ -11,6 +11,7 @@ namespace brownbag
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
+            Console.Write("Hello again");
             Console.In.ReadLine();
         }
     }
