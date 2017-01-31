@@ -10,9 +10,10 @@ namespace brownbag
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
-            Console.Write("Hello again");
-            Console.In.ReadLine();
+            Console.Write("Enter name: ");
+            var input = Console.In.ReadLine();
+            Console.WriteLine($"Hello, {input}!");
+            Console.ReadKey();
         }
     }
 }
